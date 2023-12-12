@@ -1,0 +1,217 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom, #1A1733, #A68FEA);
+}
+
+.dialog {
+    -fx-background-color: linear-gradient(to bottom, #1A1733, #A68FEA);
+}
+
+.dialog-label {
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.text-field {
+    -fx-background-color: #A68FEA;
+    -fx-border-color: transparent;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-text-fill: white;
+}
+.text-field:focused {
+    -fx-background-color: #A68FEA;
+    -fx-border-color: transparent;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-text-fill: white;
+}
+
+.add-button {
+    -fx-background-color: #7168bb;
+    -fx-border-color: transparent;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-text-fill: white;
+}
+
+.add-button:hover {
+    -fx-background-color: #40387e;
+    -fx-border-color: transparent;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-text-fill: white;
+}
+
+.add-button:pressed {
+    -fx-background-color: #1A1733;
+    -fx-border-color: transparent;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-text-fill: white;
+}
+
+.login-button {
+    -fx-background-color: #7168bb;
+    -fx-border-color: transparent;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-text-fill: white;
+}
+
+.login-button:hover {
+    -fx-background-color: #40387e;
+    -fx-border-color: transparent;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-text-fill: white;
+}
+
+.login-button:pressed {
+    -fx-background-color: #1A1733;
+    -fx-border-color: transparent;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-text-fill: white;
+}
+
+.table-view {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 5 0 0 0;
+}
+
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: #1A1733;
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-padding: 0 0 5px 0;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+}
+
+.table-row-cell {
+    -fx-background-color: #93f9b911;
+    -fx-text-background-color: white;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #93f9b911;
+    -fx-text-background-color: #767676;
+}
+
+.table-row-cell:selected {
+    -fx-text-background-color: #1A1733;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: #93f9b911;
+    -fx-background-insets: 0, 0 0 1 0;
+}
+
+.table-row-cell:even{
+    -fx-background-color: #1dbbdd11;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .virtual-flow .scroll-bar .increment-button,
+.table-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  linear-gradient(to bottom, #1A1733, #A68FEA);
+}
+.table-view .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color:  linear-gradient(to right, #1A1733, #A68FEA);
+}
+
+.edit-button {
+    -fx-background-image: url("edit.png");
+    -fx-background-color: transparent;
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+    -fx-min-width: 15px;
+    -fx-min-height: 15px;
+}
+
+.edit-button:hover {
+    -fx-background-image: url("edit.hover.png");
+    -fx-background-size: contain;
+}
+
+.edit-button:pressed {
+    -fx-background-image: url("edit.pressed.png");
+    -fx-background-size: contain;
+}
+
+.view-button {
+    -fx-background-image: url("view.png");
+    -fx-background-color: transparent;
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+    -fx-min-width: 15px;
+    -fx-min-height: 15px;
+}
+
+.view-button:hover {
+    -fx-background-image: url("view.hover.png");
+    -fx-background-size: contain;
+}
+
+.view-button:pressed {
+    -fx-background-image: url("view.pressed.png");
+    -fx-background-size: contain;
+}
+
+.remove-button {
+    -fx-background-image: url("remove.png");
+    -fx-background-color: transparent;
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+    -fx-min-width: 15px;
+    -fx-min-height: 15px;
+}
+
+.remove-button:hover {
+    -fx-background-image: url("remove.hover.png");
+    -fx-background-size: contain;
+}
+
+.remove-button:pressed {
+    -fx-background-image: url("remove.pressed.png");
+    -fx-background-size: contain;
+}
+
+
+.label, .button, .text-field, .dialog-label {
+    -fx-font-family: "Bahnschrift SemiBold Condensed", sans-serif;
+}
